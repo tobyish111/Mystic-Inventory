@@ -35,16 +35,6 @@
 4. The card is matched and displayed — then added to your local collection.
 
 ---
+## Support/Issues
 
-## 🗃 Data Model (SwiftData)
-
-```swift
-@Model
-class MTGCard: Identifiable {
- var id: UUID
- var name: String
- var set: String
- var collectorNumber: String
- var rarity: String
- var imageUrl: String
-}****
+Please use the issues section of this repo to create an issue so we can fix it! 
