@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mystic Inventory — Privacy Policy</title>
+  <meta name="description" content="Privacy Policy for Mystic Inventory, an iOS app for organizing Magic: The Gathering card collections." />
+  <meta property="og:title" content="Mystic Inventory — Privacy Policy" />
+  <meta property="og:description" content="Mystic Inventory does not collect personal data. Card and collection data stays on your device." />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#0b0f14" />
+  <style>
+    :root {
+      --bg: #0b0f14;
+      --bg-soft: #131a22;
+      --text: #e6edf3;
+      --muted: #9fb0c0;
+      --accent: #7cc7ff;
+      --border: #1c2630;
+      --card: #0f151c;
+      --success: #47d381;
+      --warn: #ffcc66;
+    }
+    @media (prefers-color-scheme: light) {
+      :root {
+        --bg: #f7fbff;
+        --bg-soft: #f1f7fd;
+        --text: #0b1a2a;
+        --muted: #4a6a88;
+        --accent: #0066cc;
+        --border: #d8e6f3;
+        --card: #ffffff;
+      }
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; background: var(--bg); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Inter, Helvetica, Arial, sans-serif; line-height: 1.6; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    header { padding: 48px 20px 24px; text-align: center; background: linear-gradient(180deg, var(--bg-soft), transparent); border-bottom: 1px solid var(--border); }
+    h1 { margin: 0 0 6px; font-size: 2rem; letter-spacing: -0.02em; }
+    .subtitle { color: var(--muted); margin: 0; font-size: 0.95rem; }
+    main { max-width: 880px; margin: 0 auto; padding: 24px 20px 60px; }
+    section { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 20px; margin-bottom: 16px; }
+    h2 { margin-top: 0; font-size: 1.2rem; }
+    ul { padding-left: 20px; }
+    .badge { display: inline-block; font-size: 0.8rem; padding: 4px 10px; border-radius: 999px; background: var(--bg-soft); border: 1px solid var(--border); color: var(--muted); }
+    .muted { color: var(--muted); }
+    .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    @media (max-width: 720px) { .grid { grid-template-columns: 1fr; } }
+    footer { border-top: 1px solid var(--border); padding: 20px; text-align: center; color: var(--muted); }
+    code, pre { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Mystic Inventory — Privacy Policy</h1>
+    <p class="subtitle">Effective date: September 23, 2025</p>
+  </header>
+
+  <main>
+    <section>
+      <p><strong>Mystic Inventory</strong> is an iOS app that helps you scan, organize, and analyze your Magic: The Gathering collection. We take privacy seriously: the app is designed so your collection data stays on your device, and we do not collect personal information.</p>
+      <p class="badge">Summary: No personal data collection</p>
+    </section>
+
+    <div class="grid">
+      <section>
+        <h2>Information We Collect</h2>
+        <p>We do <strong>not</strong> collect, store, or share personally identifiable information (PII). No accounts, emails, or names are required to use the app.</p>
+        <ul>
+          <li><strong>On-device data:</strong> Your collections and cards are stored locally on your device using Apple frameworks.</li>
+          <li><strong>No analytics:</strong> The app does not include analytics SDKs.</li>
+          <li><strong>No ad tracking:</strong> The app does not use advertising identifiers.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>How Your Data Is Used</h2>
+        <ul>
+          <li><strong>Local storage:</strong> Collection and card data you create is saved locally on your device and is under your control.</li>
+          <li><strong>Network requests:</strong> When you search or scan, the app queries third‑party card databases to retrieve card details and images.</li>
+          <li><strong>Caching:</strong> Some responses are cached locally to improve speed and reduce network usage.</li>
+        </ul>
+      </section>
+    </div>
+
+    <section>
+      <h2>Third‑Party Services</h2>
+      <p>Mystic Inventory connects to reputable public card databases to fetch rules text, images, and combo data:</p>
+      <ul>
+        <li><strong>Scryfall API</strong> — card data & images. See their <a href="https://scryfall.com/docs/legal/privacy" rel="noopener">privacy policy</a>.</li>
+        <li><strong>Commander Spellbook</strong> — EDH combo references (read‑only). Community resource without personal data collection.</li>
+      </ul>
+      <p>Network requests may include the card names or identifiers you search for, which are not personal data.</p>
+    </section>
+
+    <section>
+      <h2>Children’s Privacy</h2>
+      <p>The app is suitable for all ages and does not knowingly collect data from children under 13.</p>
+    </section>
+
+    <section>
+      <h2>Your Choices & Controls</h2>
+      <ul>
+        <li>You can delete the app at any time to remove all locally stored data.</li>
+        <li>If you wish to clear cached responses, reinstalling the app resets local caches.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Changes to This Policy</h2>
+      <p>We may update this policy as the app evolves (for example, if we introduce optional features). Any updates will be posted at this URL with an updated effective date.</p>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>If you have questions or requests about privacy, please open an issue on our public tracker: <a href="https://github.com/tobyish111/Mystic-Inventory/issues" rel="noopener">GitHub Issues — Mystic Inventory</a>.</p>
+    </section>
+  </main>
+
+  <footer>
+    <small>© 2025 Mystic Inventory. This page is provided for transparency and does not supersede App Store terms.</small>
+  </footer>
+</body>
+</html>
